@@ -1,5 +1,5 @@
 # PoV_Display
-Persistance of Vision display for University class.
+Persistance of Vision display for a university class.
 
 
 Authors:
