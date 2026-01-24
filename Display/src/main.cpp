@@ -163,13 +163,13 @@ void loop()
   switch (cmd)
   {
   case '+':
-   currentSpeed = constrain(currentSpeed + 5, -255, 255);
+   currentSpeed = constrain(currentSpeed + 20, -255, 255);
    Serial.print("Speed: ");
    Serial.println(currentSpeed);
    break;
 
   case '-':
-   currentSpeed = constrain(currentSpeed - 5, -255, 255);
+   currentSpeed = constrain(currentSpeed - 20, -255, 255);
    Serial.print("Speed: ");
    Serial.println(currentSpeed);
    break;
